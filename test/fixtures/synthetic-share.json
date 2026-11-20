@@ -1,0 +1,200 @@
+{
+ "schema": "webvibe/share@1",
+ "source": {
+  "kind": "share-link",
+  "api": "/api/v0/share/content",
+  "apiStatus": "observed-from-frontend",
+  "apiNote": "合成 fixture，仅用于测试结构"
+ },
+ "conversation": {
+  "title": null,
+  "titleNote": "合成 fixture（正文已脱敏）",
+  "model": null,
+  "modelNote": "model 字段为空串，拿不到模型名",
+  "messageCount": 8,
+  "timeRange": {
+   "from": "2026-08-10T06:57:53.074Z",
+   "to": "2026-08-10T07:33:19.942Z"
+  },
+  "attachments": {
+   "supported": false,
+   "note": "分享页实测不含附件；遇到未知片段类型会报错而不是丢弃"
+  }
+ },
+ "warnings": [],
+ "messages": [
+  {
+   "id": "1",
+   "parentId": null,
+   "role": "user",
+   "insertedAt": "2026-08-10T06:57:53.079Z",
+   "thinkingEnabled": true,
+   "searchEnabled": false,
+   "incomplete": false,
+   "blocks": [
+    {
+     "type": "file",
+     "files": [
+      {
+       "name": "IMG_20260810_145234_2431995720684081192.webp",
+       "size": 18640,
+       "modelKind": "VISION"
+      },
+      {
+       "name": "IMG_20260810_145242_7909197285099949726.webp",
+       "size": 24070,
+       "modelKind": "VISION"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "role": "user",
+     "text": "[合成] 用户消息 1"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "parentId": "1",
+   "role": "assistant",
+   "insertedAt": "2026-08-10T06:57:53.074Z",
+   "thinkingEnabled": true,
+   "searchEnabled": false,
+   "incomplete": false,
+   "blocks": [
+    {
+     "type": "thinking",
+     "text": "[合成] 思考摘要 2",
+     "elapsedSecs": 72.182117658
+    },
+    {
+     "type": "text",
+     "role": "assistant",
+     "text": "[合成] 助手回答 3"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "parentId": "2",
+   "role": "user",
+   "insertedAt": "2026-08-10T07:00:36.148Z",
+   "thinkingEnabled": true,
+   "searchEnabled": false,
+   "incomplete": false,
+   "blocks": [
+    {
+     "type": "text",
+     "role": "user",
+     "text": "[合成] 用户消息 4"
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "parentId": "3",
+   "role": "assistant",
+   "insertedAt": "2026-08-10T07:00:36.145Z",
+   "thinkingEnabled": true,
+   "searchEnabled": false,
+   "incomplete": false,
+   "blocks": [
+    {
+     "type": "thinking",
+     "text": "[合成] 思考摘要 5",
+     "elapsedSecs": 20.55366774
+    },
+    {
+     "type": "text",
+     "role": "assistant",
+     "text": "[合成] 助手回答 6"
+    }
+   ]
+  },
+  {
+   "id": "7",
+   "parentId": "4",
+   "role": "user",
+   "insertedAt": "2026-08-10T07:32:08.958Z",
+   "thinkingEnabled": true,
+   "searchEnabled": false,
+   "incomplete": false,
+   "blocks": [
+    {
+     "type": "file",
+     "files": [
+      {
+       "name": "IMG_20260810_153116_7273615629206108860.webp",
+       "size": 9638,
+       "modelKind": "VISION"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "role": "user",
+     "text": "[合成] 用户消息 7"
+    }
+   ]
+  },
+  {
+   "id": "8",
+   "parentId": "7",
+   "role": "assistant",
+   "insertedAt": "2026-08-10T07:32:08.954Z",
+   "thinkingEnabled": true,
+   "searchEnabled": false,
+   "incomplete": false,
+   "blocks": [
+    {
+     "type": "thinking",
+     "text": "[合成] 思考摘要 8",
+     "elapsedSecs": 13.991043286
+    },
+    {
+     "type": "text",
+     "role": "assistant",
+     "text": "[合成] 助手回答 9"
+    }
+   ]
+  },
+  {
+   "id": "9",
+   "parentId": "8",
+   "role": "user",
+   "insertedAt": "2026-08-10T07:33:19.942Z",
+   "thinkingEnabled": true,
+   "searchEnabled": false,
+   "incomplete": false,
+   "blocks": [
+    {
+     "type": "text",
+     "role": "user",
+     "text": "[合成] 用户消息 10"
+    }
+   ]
+  },
+  {
+   "id": "10",
+   "parentId": "9",
+   "role": "assistant",
+   "insertedAt": "2026-08-10T07:33:19.938Z",
+   "thinkingEnabled": true,
+   "searchEnabled": false,
+   "incomplete": false,
+   "blocks": [
+    {
+     "type": "thinking",
+     "text": "[合成] 思考摘要 11",
+     "elapsedSecs": 12.54956745
+    },
+    {
+     "type": "text",
+     "role": "assistant",
+     "text": "[合成] 助手回答 12"
+    }
+   ]
+  }
+ ]
+}

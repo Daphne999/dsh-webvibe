@@ -1,0 +1,135 @@
+{
+ "schema": "webvibe/preference-card@1",
+ "draft": true,
+ "reviewed": true,
+ "provenance": "构造语料",
+ "fields": {
+  "appellation": {
+   "value": {
+    "forms": [
+     {
+      "form": "你",
+      "count": 3
+     }
+    ],
+    "tone": "偏直接/命令式",
+    "politeHits": 0,
+    "directHits": 2,
+    "indirectRequests": 0,
+    "indirect": []
+   },
+   "note": "",
+   "confidence": "low",
+   "evidence": [
+    {
+     "conversation": 0,
+     "messageIndex": 0,
+     "blockIndex": 0,
+     "blockType": "text",
+     "role": "user",
+     "quote": "构造引文甲：这句是用户原话"
+    }
+   ]
+  },
+  "verbosity": {
+   "value": {
+    "assistantMedianChars": 20,
+    "userMedianChars": 6,
+    "assistantSamples": 2,
+    "userSamples": 3,
+    "explicitShortRequests": 0,
+    "explicitLongRequests": 0,
+    "terseProbeCount": 2,
+    "terseProbeRatio": 67,
+    "style": "偏向极简追问（题号 / 二选一 / 四字以内）"
+   },
+   "note": "",
+   "confidence": "low",
+   "evidence": [
+    {
+     "conversation": 0,
+     "messageIndex": 1,
+     "blockIndex": 0,
+     "blockType": "text",
+     "role": "user",
+     "quote": "构造引文乙：另一句原话"
+    }
+   ]
+  },
+  "formatting": {
+   "value": {
+    "assistant": {
+     "samples": 2,
+     "withList": 1,
+     "withCodeFence": 0,
+     "withTable": 0
+    },
+    "user": {
+     "samples": 3,
+     "withList": 0,
+     "withCodeFence": 0,
+     "withTable": 0
+    }
+   },
+   "note": "",
+   "confidence": "low",
+   "evidence": []
+  },
+  "topics": {
+   "value": [
+    {
+     "topic": "学习考试",
+     "hits": 3,
+     "evidenceLevel": "real"
+    }
+   ],
+   "note": "",
+   "confidence": "low",
+   "evidence": [
+    {
+     "conversation": 0,
+     "messageIndex": 2,
+     "blockIndex": 0,
+     "blockType": "text",
+     "role": "user",
+     "quote": "构造引文丙"
+    }
+   ]
+  },
+  "corrections": {
+   "value": [
+    {
+     "messageIndex": 3,
+     "quote": "构造引文丁：被判成纠正的句子",
+     "rule": "not-followed",
+     "label": "指出未按约定执行"
+    }
+   ],
+   "note": "",
+   "confidence": "low",
+   "evidence": [
+    {
+     "conversation": 0,
+     "messageIndex": 3,
+     "blockIndex": 0,
+     "blockType": "text",
+     "role": "user",
+     "quote": "构造引文丁：被判成纠正的句子"
+    }
+   ]
+  },
+  "thinkingAttitude": {
+   "value": {
+    "thinkingRatioPercent": 50,
+    "assistantAnswers": 2,
+    "answersWithThinking": 1,
+    "wantsThinkingRequests": 0,
+    "dislikesThinkingRequests": 1,
+    "attitude": "倾向少解释、直接给结论"
+   },
+   "note": "",
+   "confidence": "low",
+   "evidence": []
+  }
+ }
+}

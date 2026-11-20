@@ -1,0 +1,134 @@
+{
+ "code": 0,
+ "msg": "",
+ "data": {
+  "biz_code": 0,
+  "biz_msg": "",
+  "biz_data": {
+   "title": "Shared Conversation",
+   "messages": [
+    {
+     "message_id": 1,
+     "parent_id": null,
+     "model": "",
+     "role": "USER",
+     "thinking_enabled": true,
+     "ban_edit": false,
+     "ban_regenerate": false,
+     "status": "FINISHED",
+     "incomplete_message": null,
+     "accumulated_token_usage": 116,
+     "feedback": null,
+     "inserted_at": 1794992959.9359999,
+     "search_enabled": false,
+     "fragments": [
+      {
+       "id": 1,
+       "type": "REQUEST",
+       "content": "【脱敏】正文#2"
+      }
+     ],
+     "has_pending_fragment": false,
+     "auto_continue": false,
+     "extra_search_providers": []
+    },
+    {
+     "message_id": 2,
+     "parent_id": 1,
+     "model": "",
+     "role": "ASSISTANT",
+     "thinking_enabled": true,
+     "ban_edit": false,
+     "ban_regenerate": false,
+     "status": "FINISHED",
+     "incomplete_message": null,
+     "accumulated_token_usage": 928,
+     "feedback": null,
+     "inserted_at": 1794992959.9269998,
+     "search_enabled": false,
+     "fragments": [
+      {
+       "id": 2,
+       "type": "THINK",
+       "content": "【脱敏】正文#3",
+       "elapsed_secs": 10.205470894,
+       "references": [],
+       "stage_id": 1
+      },
+      {
+       "id": 3,
+       "type": "RESPONSE",
+       "content": "【脱敏】正文#4",
+       "references": [],
+       "stage_id": 1
+      }
+     ],
+     "has_pending_fragment": false,
+     "auto_continue": false,
+     "extra_search_providers": []
+    },
+    {
+     "message_id": 3,
+     "parent_id": 2,
+     "model": "",
+     "role": "USER",
+     "thinking_enabled": true,
+     "ban_edit": false,
+     "ban_regenerate": false,
+     "status": "FINISHED",
+     "incomplete_message": null,
+     "accumulated_token_usage": 980,
+     "feedback": null,
+     "inserted_at": 1794993206.3049998,
+     "search_enabled": false,
+     "fragments": [
+      {
+       "id": 1,
+       "type": "REQUEST",
+       "content": "【脱敏】正文#5"
+      }
+     ],
+     "has_pending_fragment": false,
+     "auto_continue": false,
+     "extra_search_providers": []
+    },
+    {
+     "message_id": 4,
+     "parent_id": 3,
+     "model": "",
+     "role": "ASSISTANT",
+     "thinking_enabled": true,
+     "ban_edit": false,
+     "ban_regenerate": false,
+     "status": "FINISHED",
+     "incomplete_message": null,
+     "accumulated_token_usage": 1135,
+     "feedback": null,
+     "inserted_at": 1794993206.3009999,
+     "search_enabled": false,
+     "fragments": [
+      {
+       "id": 2,
+       "type": "THINK",
+       "content": "【脱敏】正文#6",
+       "elapsed_secs": 1.821408529,
+       "references": [],
+       "stage_id": 1
+      },
+      {
+       "id": 3,
+       "type": "RESPONSE",
+       "content": "【脱敏】正文#7",
+       "references": [],
+       "stage_id": 1
+      }
+     ],
+     "has_pending_fragment": false,
+     "auto_continue": false,
+     "extra_search_providers": []
+    }
+   ],
+   "model_type": "default"
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "dsh-webvibe",
+  "version": "0.1.0",
+  "description": "DeepSeek share link → conversation preferences → AGENTS.md managed block. | 分享链接提炼对话偏好，写进 AGENTS.md 托管区块。",
+  "type": "module",
+  "bin": {
+    "dsh-webvibe": "./scripts/run.mjs"
+  },
+  "files": [
+    "SKILL.md",
+    "scripts",
+    "test",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-skill",
+    "share-link",
+    "preferences",
+    "agents.md"
+  ],
+  "license": "MIT"
+}

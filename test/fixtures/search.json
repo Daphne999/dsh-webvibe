@@ -1,0 +1,258 @@
+{
+ "code": 0,
+ "msg": "",
+ "data": {
+  "biz_code": 0,
+  "biz_msg": "",
+  "biz_data": {
+   "title": "Shared Conversation",
+   "messages": [
+    {
+     "message_id": 1,
+     "parent_id": null,
+     "model": "",
+     "role": "USER",
+     "thinking_enabled": false,
+     "ban_edit": false,
+     "ban_regenerate": false,
+     "status": "FINISHED",
+     "incomplete_message": null,
+     "accumulated_token_usage": 89,
+     "feedback": null,
+     "inserted_at": 1794993281.5879998,
+     "search_enabled": true,
+     "fragments": [
+      {
+       "id": 1,
+       "type": "REQUEST",
+       "content": "【脱敏】正文#2"
+      }
+     ],
+     "has_pending_fragment": false,
+     "auto_continue": false,
+     "extra_search_providers": []
+    },
+    {
+     "message_id": 2,
+     "parent_id": 1,
+     "model": "",
+     "role": "ASSISTANT",
+     "thinking_enabled": false,
+     "ban_edit": false,
+     "ban_regenerate": false,
+     "status": "FINISHED",
+     "incomplete_message": null,
+     "accumulated_token_usage": 477,
+     "feedback": null,
+     "inserted_at": 1794993281.583,
+     "search_enabled": true,
+     "fragments": [
+      {
+       "id": 2,
+       "type": "SEARCH",
+       "status": "FINISHED",
+       "content": "【脱敏】正文#3",
+       "queries": [],
+       "results": [
+        {
+         "url": "https://example.invalid/source-1",
+         "title": "【脱敏】来源标题#4",
+         "snippet": "【脱敏】摘要片段",
+         "cite_index": 1,
+         "published_at": 1783612800,
+         "site_icon": "https://example.invalid/icon-1.png",
+         "site_name": "【脱敏】站点",
+         "query_indexes": [
+          0
+         ],
+         "provider": null
+        },
+        {
+         "url": "https://example.invalid/source-2",
+         "title": "【脱敏】来源标题#5",
+         "snippet": "【脱敏】摘要片段",
+         "cite_index": 2,
+         "published_at": 1746460800,
+         "site_icon": "https://example.invalid/icon-2.png",
+         "site_name": "【脱敏】站点",
+         "query_indexes": [
+          1
+         ],
+         "provider": null
+        },
+        {
+         "url": "https://example.invalid/source-3",
+         "title": "【脱敏】来源标题#6",
+         "snippet": "【脱敏】摘要片段",
+         "cite_index": 4,
+         "published_at": 1787846400,
+         "site_icon": "https://example.invalid/icon-3.png",
+         "site_name": "【脱敏】站点",
+         "query_indexes": [
+          0
+         ],
+         "provider": null
+        },
+        {
+         "url": "https://example.invalid/source-4",
+         "title": "【脱敏】来源标题#7",
+         "snippet": "【脱敏】摘要片段",
+         "cite_index": 5,
+         "published_at": 1770307200,
+         "site_icon": "https://example.invalid/icon-4.png",
+         "site_name": "【脱敏】站点",
+         "query_indexes": [
+          1
+         ],
+         "provider": null
+        },
+        {
+         "url": "https://example.invalid/source-5",
+         "title": "【脱敏】来源标题#8",
+         "snippet": "【脱敏】摘要片段",
+         "cite_index": 7,
+         "published_at": 1776355200,
+         "site_icon": "https://example.invalid/icon-5.png",
+         "site_name": "【脱敏】站点",
+         "query_indexes": [
+          0
+         ],
+         "provider": null
+        },
+        {
+         "url": "https://example.invalid/source-6",
+         "title": "【脱敏】来源标题#9",
+         "snippet": "【脱敏】摘要片段",
+         "cite_index": 8,
+         "published_at": 1743004800,
+         "site_icon": "https://example.invalid/icon-6.png",
+         "site_name": "【脱敏】站点",
+         "query_indexes": [
+          1
+         ],
+         "provider": null
+        },
+        {
+         "url": "https://example.invalid/source-7",
+         "title": "【脱敏】来源标题#10",
+         "snippet": "【脱敏】摘要片段",
+         "cite_index": 10,
+         "published_at": 1773072000,
+         "site_icon": "https://example.invalid/icon-7.png",
+         "site_name": "【脱敏】站点",
+         "query_indexes": [
+          0
+         ],
+         "provider": null
+        },
+        {
+         "url": "https://example.invalid/source-8",
+         "title": "【脱敏】来源标题#11",
+         "snippet": "【脱敏】摘要片段",
+         "cite_index": 11,
+         "published_at": 1745769600,
+         "site_icon": "https://example.invalid/icon-8.png",
+         "site_name": "【脱敏】站点",
+         "query_indexes": [
+          1
+         ],
+         "provider": null
+        },
+        {
+         "url": "https://example.invalid/source-9",
+         "title": "【脱敏】来源标题#12",
+         "snippet": "【脱敏】摘要片段",
+         "cite_index": 13,
+         "published_at": 1750694400,
+         "site_icon": "https://example.invalid/icon-9.png",
+         "site_name": "【脱敏】站点",
+         "query_indexes": [
+          1
+         ],
+         "provider": null
+        },
+        {
+         "url": "https://example.invalid/source-10",
+         "title": "【脱敏】来源标题#13",
+         "snippet": "【脱敏】摘要片段",
+         "cite_index": 14,
+         "published_at": 1471881600,
+         "site_icon": "https://example.invalid/icon-10.png",
+         "site_name": "【脱敏】站点",
+         "query_indexes": [
+          2
+         ],
+         "provider": null
+        }
+       ]
+      },
+      {
+       "id": 3,
+       "type": "RESPONSE",
+       "content": "【脱敏】正文#14",
+       "references": [],
+       "stage_id": 2
+      }
+     ],
+     "conversation_mode": "SEARCH",
+     "has_pending_fragment": false,
+     "auto_continue": false,
+     "extra_search_providers": []
+    },
+    {
+     "message_id": 3,
+     "parent_id": 2,
+     "model": "",
+     "role": "USER",
+     "thinking_enabled": false,
+     "ban_edit": false,
+     "ban_regenerate": false,
+     "status": "FINISHED",
+     "incomplete_message": null,
+     "accumulated_token_usage": 503,
+     "feedback": null,
+     "inserted_at": 1794993290.422,
+     "search_enabled": true,
+     "fragments": [
+      {
+       "id": 1,
+       "type": "REQUEST",
+       "content": "【脱敏】正文#15"
+      }
+     ],
+     "has_pending_fragment": false,
+     "auto_continue": false,
+     "extra_search_providers": []
+    },
+    {
+     "message_id": 4,
+     "parent_id": 3,
+     "model": "",
+     "role": "ASSISTANT",
+     "thinking_enabled": false,
+     "ban_edit": false,
+     "ban_regenerate": false,
+     "status": "FINISHED",
+     "incomplete_message": null,
+     "accumulated_token_usage": 681,
+     "feedback": null,
+     "inserted_at": 1794993290.419,
+     "search_enabled": true,
+     "fragments": [
+      {
+       "id": 2,
+       "type": "RESPONSE",
+       "content": "【脱敏】正文#16",
+       "references": [],
+       "stage_id": 1
+      }
+     ],
+     "has_pending_fragment": false,
+     "auto_continue": false,
+     "extra_search_providers": []
+    }
+   ],
+   "model_type": "default"
+  }
+ }
+}
